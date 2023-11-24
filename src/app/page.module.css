@@ -52,6 +52,10 @@
     width: 350px;
 }
 
+.article__card:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
 .article__card__image {
     width: 350px;
     height: auto;
@@ -65,4 +69,38 @@
 .article__card__text {
     padding: 0 20px;
     line-height: 16px;
+}
+
+/* Peleadores */
+.article__peleador__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.article__peleador {
+    width: 275px;
+}
+
+.article__peleador:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
+.article__peleador__image {
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.article__peleador__title {
+    text-align: center;
+    line-height: 0;
+}
+
+.article__peleador__text {
+    font-size: 15px;
+    padding: 20px 10px;
+    line-height: 20px;
 }

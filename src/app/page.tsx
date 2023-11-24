@@ -1,7 +1,10 @@
 import Image from 'next/image'
+import styles from './page.module.css'
 import kobudo from '@/assets/homepage/articles/karate_kobudo.jpg'
 import kata from '@/assets/homepage/articles/karate_kata.jpg'
-import styles from './page.module.css'
+/*Peleadores Images */
+import higa from '@/assets/homepage/peleadores/oscar_higa.jpg'
+import lidia from '@/assets/homepage/peleadores/lidia_rodriguez.jpg'
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
       <section className={styles.articles__container}>
         <article className={styles.article}>
           <h2 className={styles.article__title}>Karate</h2>
-          <p>El karate es un arte marcial con origen en</p>
+          <p>El karate es un arte marcial tradicional con origen japonés, con base en algunos estilos de artes marciales chinas, y en otras disciplinas provenientes del mismo Japón, en Okinawa. Su origen data del siglo XVI, teniendo como objetivo el dominio de las técnicas de autodefensa, que si son practicadas a temprana edad, pueden tener beneficios en la función psicomotriz, dado que se practica el equilibrio, el conocimiento del tiempo y del espacio, la coordinación y la percepción del propio cuerpo.</p>
         </article>
         <article className={styles.article}>
           <h2 className={styles.article__title}>Artículos de Karate</h2>
@@ -55,7 +58,28 @@ export default function Home() {
         </article>
         <article className={styles.article}>
           <h2 className={styles.article__title}>Peleadores de Karate</h2>
-          <p>El karate es un arte marcial con origen en</p>
+          <div className={styles.article__peleador__container}>
+            <article className={styles.article__peleador}>
+              <Image className={styles.article__peleador__image} src={higa} alt='' />
+              <h3 className={styles.article__peleador__title}>Oscar Higa</h3>
+              <p className={styles.article__peleador__text}>Oscar Higa es un peleador de karate nacido el 28 de marzo de 1945 en Buenos Aires</p>
+            </article>
+            <article className={styles.article__peleador}>
+              <Image className={styles.article__peleador__image} src={lidia} alt='' />
+              <h3 className={styles.article__peleador__title}>Lidia Rodríguez</h3>
+              <p className={styles.article__peleador__text}>Lidia Rodríguez Encabo en una peleadora de karate que compite en la modalidad de Kata, nacida el 23 de abril de 1997 en Alcalá, España.</p>
+            </article>
+            <article className={styles.article__peleador}>
+              <Image className={styles.article__peleador__image} src={higa} alt='' />
+              <h3 className={styles.article__peleador__title}>Oscar Higa</h3>
+              <p className={styles.article__peleador__text}>Oscar Higa es un peleador de karate nacido el 28 de marzo de 1945 en Buenos Aires</p>
+            </article>
+            <article className={styles.article__peleador}>
+              <Image className={styles.article__peleador__image} src={lidia} alt='' />
+              <h3 className={styles.article__peleador__title}>Lidia Rodríguez</h3>
+              <p className={styles.article__peleador__text}>Lidia Rodríguez Encabo en una peleadora de karate que compite en la modalidad de Kata, nacida el 23 de abril de 1997 en Alcalá, España.</p>
+            </article>
+          </div>
         </article>
       </section>
     </main>
