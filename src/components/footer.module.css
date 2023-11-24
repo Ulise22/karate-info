@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 50px;
+}
+
+.footer__container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.footer__line {
+    height: 1px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.footer__p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
