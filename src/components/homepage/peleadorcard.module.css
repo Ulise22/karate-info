@@ -23,3 +23,15 @@
     padding: 20px 10px;
     line-height: 20px;
 }
+
+@media screen and (max-width: 660px) {
+    .article__peleador {
+        max-width: 275px;
+        width: 100%;
+    }
+
+    .article__peleador__image {
+        max-width: 275px;
+        width: 100%;
+    }
+}

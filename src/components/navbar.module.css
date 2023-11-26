@@ -29,3 +29,37 @@
 .navbar__list:hover {
     color: #666;
 }
+
+.navbar__menu {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .navbar__list {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .navbar__menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navbar__container {
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        padding: 20px 0;
+        width: 100%;
+        align-items: center;
+        transition: .3s ease;
+    }
+
+    .navbar__container.active {
+        left: 0;
+        transition: .3s ease;
+    }
+}
