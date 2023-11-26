@@ -1,0 +1,20 @@
+
+.peleador {
+    width: 300px;
+    border: 1px solid #999;
+}
+
+.peleador__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.peleador__image {
+    width: inherit;
+    height: 520px;
+    object-fit: cover;
+}
+
+.peleador__nombre {
+    text-align: center;
+}
