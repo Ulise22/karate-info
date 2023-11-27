@@ -39,10 +39,10 @@ export default function Home() {
         <article className={styles.article}>
           <h2 className={styles.article__title}>Peleadores de Karate</h2>
           <div className={styles.article__peleador__container}>
-            <PeleadorCard peleadorImage={higa} nombre='Oscar Higa' texto='Oscar Higa es un peleador de karate nacido el 28 de marzo de 1945 en Buenos Aires...' />
-            <PeleadorCard peleadorImage={lidia} nombre='Lidia Rodríguez' texto='Lidia Rodríguez Encabo en una peleadora de karate que compite en la modalidad de Kata, nacida el 23 de abril de 1997 en Alcalá, España...' />
-            <PeleadorCard peleadorImage={rafael} nombre='Rafael Aghayev' texto='Rafael Aghayev es un karateka azerbayano nacido el 4 de marzo de 1985 especializado en kumite...' />
-            <PeleadorCard peleadorImage={yorgelis} nombre='Yorgelis Salazar' texto='Yorgelis Salazar es una karateka venezolana nacida el 10 de noviembre de 1997 que ganó una medalla de plata en los Juegos Mundiales de 2022...' />
+            <PeleadorCard peleadorImage={higa} nombre='Oscar Higa' link='/peleadores/oscar-higa' texto='Oscar Higa es un peleador de karate nacido el 28 de marzo de 1945 en Buenos Aires...' />
+            <PeleadorCard peleadorImage={lidia} nombre='Lidia Rodríguez' link='/peleadores/lidia-rodriguez' texto='Lidia Rodríguez Encabo en una peleadora de karate que compite en la modalidad de Kata, nacida el 23 de abril de 1997 en Alcalá, España...' />
+            <PeleadorCard peleadorImage={rafael} nombre='Rafael Aghayev' link='/peleadores/rafael-aghayev' texto='Rafael Aghayev es un karateka azerbayano nacido el 4 de marzo de 1985 especializado en kumite...' />
+            <PeleadorCard peleadorImage={yorgelis} nombre='Yorgelis Salazar' link='/peleadores/yorgelis-salazar' texto='Yorgelis Salazar es una karateka venezolana nacida el 10 de noviembre de 1997 que ganó una medalla de plata en los Juegos Mundiales de 2022...' />
           </div>
         </article>
       </section>
