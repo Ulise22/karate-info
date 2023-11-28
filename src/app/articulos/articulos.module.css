@@ -1,0 +1,120 @@
+.articulos {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.articulos__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.articulos__hero {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: "normal1 normal1 principal principal principal normal2 normal2"
+                        "normal3 normal3 principal principal principal normal4 normal4";
+    gap: 20px;
+}
+
+.articulos__hero__principal {
+    width: 100%;
+    border: 1px solid #999;
+    grid-area: principal;
+}
+
+.articulos__hero__principal:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
+.articulos__hero__principal__image {
+    width: inherit;
+    height: auto;
+}
+
+.articulos__hero__principal__title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.articulos__hero__principal__text {
+    padding: 20px;
+}
+
+/* Articles Hero */
+
+.articulos__hero__container {
+    width: 100%;
+    border: 1px solid #999;
+}
+
+.articulos__hero__container:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
+.articulos__hero__image {
+    width: inherit;
+    height: 200px;
+    object-fit: cover;
+}
+
+.articulos__hero__title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.articulos__hero__text {
+    padding: 20px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.normal1 {
+    grid-area: normal1;
+}
+.normal2 {
+    grid-area: normal2;
+}
+.normal3 {
+    grid-area: normal3;
+}
+.normal4 {
+    grid-area: normal4;
+}
+
+@media screen and (max-width: 1280px) {
+    .articulos__container {
+        width: 95%;
+    }
+    
+    .articulos__hero {
+        width: 95%;
+    }
+
+    .articulos__hero__image {
+        height: 140px;
+    }
+
+    .articulos__hero__title {
+        font-size: 20px;
+        line-height: 16px;
+    }
+    
+    .articulos__hero__text {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .articulos__hero {
+        grid-template-areas: "principal" "normal1" "normal2" "normal3" "normal4";
+        gap: 20px;
+    }
+}
