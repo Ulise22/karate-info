@@ -1,6 +1,12 @@
 import styles from './articulos.module.css'
 import ArticleCard from '@/components/ArticleCard'
 import Image from 'next/image'
+/* Hero Images */
+import kdokata from '@/assets/articles-preview/karatedokata.jpg'
+import kyokushin from '@/assets/articles-preview/kyokushin.jpg'
+import dojo from '@/assets/articles-preview/dojo.jpg'
+import gojuryu from '@/assets/articles-preview/gojuryu.jpg'
+import okinawa from '@/assets/articles-preview/okinawa.jpg'
 /* Images */
 import dojoKun from '@/assets/homepage/articles/dojo_kun.svg'
 import taekwondo from '@/assets/homepage/articles/taekwondo-vs-karate.jpg'
@@ -11,12 +17,17 @@ import shokotan from '@/assets/homepage/articles/shotokan.jpg'
 import shorinji from '@/assets/homepage/articles/shorinji_ryu.jpg'
 import adultos from '@/assets/homepage/articles/karate_adultos.jpg'
 import miyagi from '@/assets/articles-preview/miyagi-do-karate.jpg'
-/* Hero Images */
-import kdokata from '@/assets/articles-preview/karatedokata.jpg'
-import kyokushin from '@/assets/articles-preview/kyokushin.jpg'
-import dojo from '@/assets/articles-preview/dojo.jpg'
-import gojuryu from '@/assets/articles-preview/gojuryu.jpg'
-import okinawa from '@/assets/articles-preview/okinawa.jpg'
+import aka from '@/assets/articles-preview/aka_ao.jpg'
+import dans from '@/assets/articles-preview/dans.jpg'
+import marcial from '@/assets/articles-preview/am_karate.jpg'
+import budo from '@/assets/articles-preview/budo.jpg'
+import chatanyara from '@/assets/articles-preview/chatanyara.jpg'
+import enpi_kata from '@/assets/articles-preview/enpi_kata.jpg'
+import golpe from '@/assets/articles-preview/golpe.jpg'
+import haito from '@/assets/articles-preview/haito.png'
+import hiraken from '@/assets/articles-preview/hiraken.png'
+import byakuren from '@/assets/articles-preview/byakuren.jpg'
+import femenino from '@/assets/articles-preview/femenino.jpg'
 
 export default function Articulos () {
     return(
@@ -61,6 +72,17 @@ export default function Articulos () {
                 <ArticleCard artImage={taekwondo} title='Karate y Taekwondo' text='La princiapal diferencia entre estas 2 artes marciales consiste en que el karate abarca movimientos más amplios que el taekwondo, que hace principalmente uso de las patadas...' />
                 <ArticleCard artImage={dojoKun} title='Dojo Kun' text='El Dojo Kun es una serie de preceptos que suelen estar colgados en la pared de un dojo de artes marciales japonesas como el Karate o el Judo...' />
                 <ArticleCard artImage={miyagi} title='Miyagido Karate' text='El señor Miyagi debe ser una de las figuras de la cultura pop que más popularizó el karate en el mainstream con su aparición en Karate Kid...' />
+                <ArticleCard artImage={aka} title='Aka Ao Karate' text='¿Qué significa aka y AO en karate? Al comienzo de cada encuentro, uno de los contendientes con cinturón rojo (AKA) y otro con cinturón azul (AO), se alinearán en el perímetro del área de competición mirando al Juez Jefe...' />
+                <ArticleCard artImage={dans} title='Dans Karate' text='Dan es la denominación que se le da a los diferentes rangos del sistema de graduación dankyuisei...' />
+                <ArticleCard artImage={marcial} title='Arte Marcial Karate' text='El karate es un arte marcial ded origen asiático, con raíces en otras artes marciales chinas y que sobre todo se popularizó en japón...' />
+                <ArticleCard artImage={budo} title='Budo' text='El budo hace referencia al conocimiento técnico de las artes marciales mixtas y al conjunto de normas éticas para sus practicantes' />
+                <ArticleCard artImage={chatanyara} title='Chatan Yara' text='Chatan Yara es conocida como la primera en diseminar las artes marciales a través de la Isla de Okinawa...' />
+                <ArticleCard artImage={enpi_kata} title='Enpi Kata' text='El kata Enpi (el vuelo de la golondrina) es uno de los katas más avanzados del estilo Shokotan...' />
+                <ArticleCard artImage={golpe} title='Golpes de Karate' text='Los golpes de karateson diversos y dependen del estilo de karate que se esté aplicando, pero su lista consta de los siguientes...' />
+                <ArticleCard artImage={haito} title='Haito Karate' text='El Haito (revés de sable) es uno de los golpes más sencillos de karate...' />
+                <ArticleCard artImage={hiraken} title='Hiraken Karate' text='El Hiraken (puño de leopardo) es un golpe simple de karate...' />
+                <ArticleCard artImage={byakuren} title='Karate Byakuren' text='El karate Byakuren es un estilo de karate de full contacto fundado en 1984 por Sugihara Masayasu...' />
+                <ArticleCard artImage={femenino} title='Karate Femenino' text='El karate femenino actualmente cuenta con referentes como Sandra Sánchez que actualmente es la número 1 a nivel mundial. Y en este articulo buscaremos dar la mayor cantidad de información respecto al karate femenino...' />
             </section>
         </main>
     )
