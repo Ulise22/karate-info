@@ -25,4 +25,8 @@
     .peleador__article__text {
         font-size: 15px;
     }
+
+    .peleador__article__subtitle {
+        text-align: center;
+    }
 }
