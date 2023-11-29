@@ -1,0 +1,16 @@
+.hero__image {
+    width: 100%;
+    height: auto;
+}
+
+.hero__title {
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 1px solid #999;
+}
+
+@media screen and (max-width: 660px) {
+    .hero__title {
+        font-size: 24px;
+    }
+}

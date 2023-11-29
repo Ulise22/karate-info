@@ -6,3 +6,23 @@
 .peleador__article {
     width: 70%;
 }
+
+@media screen and (max-width: 1280px) {
+    .peleador {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .peleador {
+        width: 95%;
+    }
+
+    .peleador__article {
+        width: 100%;
+    }
+
+    .peleador__article__text {
+        font-size: 15px;
+    }
+}
