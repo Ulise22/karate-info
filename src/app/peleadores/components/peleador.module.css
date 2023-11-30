@@ -5,11 +5,16 @@
 
 .peleador__article {
     width: 70%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1280px) {
     .peleador {
         width: 90%;
+    }
+
+    .peleador__article {
+        width: 80%;
     }
 }
 

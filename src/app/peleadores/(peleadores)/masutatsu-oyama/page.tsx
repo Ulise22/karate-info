@@ -1,11 +1,11 @@
 import ArticlesHero from '@/components/ArticlesHero'
 import styles from '../../components/peleador.module.css'
-import higa from '@/assets/peleadores/higa.jpg'
+import mastatsu from '@/assets/peleadores/masutatsu.jpg'
 
-export default function Higa () {
+export default function Masatsu () {
     return(
         <main className={styles.peleador}>
-            <ArticlesHero title='Oscar Higa' img={higa} />
+            <ArticlesHero title='Masutatsu Oyama' img={mastatsu} />
         </main>
     )
 }

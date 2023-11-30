@@ -18,7 +18,7 @@ export default function Peleadores () {
                 <PeleadorArticle peleadorImage={rafael} nombre='Rafael Aghayev' link='/peleadores/rafael-aghayev' />
                 <PeleadorArticle peleadorImage={oscar} nombre='Oscar Higa' link='/peleadores/oscar-higa' />
                 <PeleadorArticle peleadorImage={yorgelis} nombre='Yorgelis Salazar' link='/peleadores/yorgelis-salazar' />
-                <PeleadorArticle peleadorImage={masoyama} nombre='Masutatsu Ōyama' link='/peleadores/yorgelis-salazar' />
+                <PeleadorArticle peleadorImage={masoyama} nombre='Masutatsu Ōyama' link='/peleadores/masutatsu-oyama' />
             </section>
         </main>
     )
