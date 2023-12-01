@@ -6,3 +6,9 @@
 .article__container {
     width: 60%;
 }
+
+@media screen and (max-width: 660px) {
+    .article__subtitle {
+        text-align: center;
+    }
+}

@@ -25,6 +25,8 @@
     width: 100%;
     border: 1px solid #999;
     grid-area: principal;
+    text-decoration: none;
+    color: #000;
 }
 
 .articulos__hero__principal:hover {
@@ -50,6 +52,8 @@
 .articulos__hero__container {
     width: 100%;
     border: 1px solid #999;
+    text-decoration: none;
+    color: #000;
 }
 
 .articulos__hero__container:hover {

@@ -28,6 +28,7 @@ import haito from '@/assets/articles-preview/haito.png'
 import hiraken from '@/assets/articles-preview/hiraken.png'
 import byakuren from '@/assets/articles-preview/byakuren.jpg'
 import femenino from '@/assets/articles-preview/femenino.jpg'
+import Link from 'next/link'
 
 export default function Articulos () {
     return(
@@ -36,31 +37,31 @@ export default function Articulos () {
                 <h1>Artículos de Karate</h1>
             </header>
             <section className={styles.articulos__hero}>
-                <article className={`${styles.articulos__hero__container} ${styles.normal1}`}>
+                <Link href='/articulos/kyokushin-kai' className={`${styles.articulos__hero__container} ${styles.normal1}`}>
                     <Image className={styles.articulos__hero__image} src={kyokushin} alt='' />
                     <h2 className={styles.articulos__hero__title}>Kyokushin Kai</h2>
                     <p className={styles.articulos__hero__text}>Kyokushinkai (que en español significa algo así como &quot;Sociedad de la Última Verdad&quot; o &quot;Verdad Definitiva&quot;) es un estilo de karate fundado de 1953 por el maestro de artes marciales japonés Masutatsu Oyama. Tiene como objetivo la eficacia en el combate real...</p>
-                </article>
-                <article className={`${styles.articulos__hero__container} ${styles.normal2}`}>
+                </Link>
+                <Link href='/articulos/dojo-karate' className={`${styles.articulos__hero__container} ${styles.normal2}`}>
                     <Image className={styles.articulos__hero__image} src={dojo} alt='' />
                     <h2 className={styles.articulos__hero__title}>Dojo Karate</h2>
                     <p className={styles.articulos__hero__text}>El Dojo en Karate, es español significa &quot;Lugar donde se practica la Vía&quot;, y es el término empleado en Japón para designar un espacio usado para meditar o practicar artes marciales,no solo Karate...</p>
-                </article>
-                <article className={styles.articulos__hero__principal}>
+                </Link>
+                <Link href='/articulos/karate-do' className={styles.articulos__hero__principal}>
                     <Image className={styles.articulos__hero__principal__image} src={kdokata} alt='' />
                     <h2 className={styles.articulos__hero__principal__title}>Karate Do</h2>
                     <p className={styles.articulos__hero__principal__text}>Do, significa &quot;camino&quot;, que en el contexto del karate, es el camino que debe seguirse para lograr la perfección. Existen más de trescientos estilos diferentes de Karate-Do, y son el medio que tienen por objetivo la unión del cuerpo físico y el alma en un plano de alto nivel.</p>
-                </article>
-                <article className={`${styles.articulos__hero__container} ${styles.normal3}`}>
+                </Link>
+                <Link href='/articulos/gojuryu' className={`${styles.articulos__hero__container} ${styles.normal3}`}>
                     <Image className={styles.articulos__hero__image} src={gojuryu} alt='' />
                     <h2 className={styles.articulos__hero__title}>Gojuryu</h2>
                     <p className={styles.articulos__hero__text}>El Goju Ryu es un estilo de karate-do fundado por el maestro Chojun Miyagui, en Okinawa en el año de 1933, cuando fue registrado formamelmente ante el <b>Butokukai</b> (la Asociación nacional de Artes Marciales Japonesas)...</p>
-                </article>
-                <article className={`${styles.articulos__hero__container} ${styles.normal4}`}>
+                </Link>
+                <Link href='/articulos/okinawa-karate' className={`${styles.articulos__hero__container} ${styles.normal4}`}>
                     <Image className={styles.articulos__hero__image} src={okinawa} alt='' />
                     <h2 className={styles.articulos__hero__title}>Okinawa Karate</h2>
                     <p className={styles.articulos__hero__text}>Entre los pueblos nativos de la isla de Okinawa, fue donde se originaron diferentes artes marciales, entre ellos el karate. Dicha isla fue influenciada por varias culturas como la japonesa, la china y en general la región del sudeste asiático, que influyeron en el desarrollo de las artes marciales...</p>
-                </article>
+                </Link>
             </section>
             <section className={styles.articulos__container}>
                 <ArticleCard artiURL='/articulos/karate-kobudo' artImage={kobudo} title='Karate Kobudo' text='El karate Kobudo es un arte marcial japonés que estudia el uso de las armas tradicionales de madera o metal...' />

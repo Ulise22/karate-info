@@ -1,11 +1,24 @@
+import ArticlesHero from '@/components/ArticlesHero'
 import styles from '../../../article.module.css'
+import karatedo from '@/assets/articles-preview/karatedokata.jpg'
+import Link from 'next/link'
 
 export default function KarataDo () {
     return(
         <main className={styles.article}>
-
+            <ArticlesHero title='Karate-do' img={karatedo} />
             <section className={styles.article__container}>
-                <h1>Article</h1>
+                <p>El karate (en español, &quot;mano vacía&quot;) es un arte marcial tradicional de Japón basada en algunos estilos de artes marciales chinas y en otras disciplinas de Okinawa. El significado de Do en karate es Camino, o sea, el camino que hay que seguir para lograr la perfección.</p>
+                <p>De forma sencilla se puede decir que el karate es el conjunto de técnicas japonesas de lucha sin armas, con las manos y los pies libres. Es una forma de ataque y defensa basada unicamente en el uso del cuerpo humano.</p>
+                <h2 className={styles.article__subtitle}>Historia del karate</h2>
+                <p>Los orgines del karate datan del siglo XVI en lo que hoy en día es la Prefectura de Okinawa. Está fuertemente influenciado por las artes marciales chinas, el Kung Fu principalmente, y se caracterizó por hacer uso de los puños y de técnicas provenientes de la lucha nativa. Lo que inspiró e influenció al karate moderno tal y como lo hacemos hoy en día, tiene que ver distintas artes marciales japonesas del siglo XX, como lo son el <b>Kendo</b>, el <b>Judo</b> y el <b>Aikido</b>. Lo que dió lugar al antecesor del karate, el &quot;TE&quot;, fue la necesidad de los guerreros nobles de defender al último rey de Okinawa y a sí mismos de los invasores japoneses pertenecientes al clan Satsuma, los <b>Samuráis</b>, quienes perpetraban abusos a la población civil que vivía en aquellas islas.</p>
+                <p>Las constantes prohibiciones del uso y portación de armas en la historia de las islas de Okinawa, además de la importancia que le daban a las artes marciales se debe a que mucho antes de ser anexada a Japón, Okinawa ya era un puerto libre y un reino independiente victima de numerosas embarcaciones que atracaban la isla, provenientes de diferentes partes de Asia, como China, Corea, Tailandia, Indonesia o Filipinas.</p>
+                <p>Estas prohibiciones a la tenencia de armas, llevaron a que gran parte de la población comenzara a idear y desarrollar otras formas de defensa con mano limpia o vacía, como lo fue el caso del karate, o utilizando herramientas agrícolas, como lo fue en el caso del <Link href='/articulos/karate-kobudo'>Kobudo</Link>.</p>
+                <h2 className={styles.article__subtitle}>Karate Moderno</h2>
+                <p>Luego de que el &quot;TE&quot; fuera adoptado por la cultura japonesa, fue mutando y evolucionando producto del intercambio cultural hasta ser lo que hoy en día llamamos karate-do. Hoy en día se caracteriza por el uso de los golpes de puño, los bloqueos, las patadas y golpes de mano abierta, en donde cada golpe o técnica recibe diferentes nombres en función de la zona del cuerpo que se busca defender o atacar. En general, y a diferencia de otras artes marciales, en el karate se busca derrotar al rival con pocos golpes muy letales, precisos y contundentes, buscando ser lo más eficaces posibles en el combate.</p>
+                <p>El karate-do, se concibe a sí mismo en base a la idea de forjar el cuerpo como un arma, para poder usarlo para defenderse y sin sufrir mayor daño, por esto las escuelas tradicionales de karate hacen incapié en fortalecer y endurecer todo el cuerpo, combatiendo con contacto a pleno y sin ninguna protección, porque esto ayuda a endurecer el fisico y da a quienes practican este arte marcial un mayor entendimiento de sus habilidades y sus limites, además de un mayor control en sus golpes.</p>
+                <p>El uso de la palabra &quot;do&quot; en el karate, da a entender el fundamento filosófico que tiene, dado que esta significa &quot;camino&quot;, que en las tradiciones chinas y japonesas se utiliza para hablar de aquellas actividades que se practican con una intención de crecimiento personal, en contraste con el uso de la palabra &quot;jutsu&quot;, que habla de una cuestión meramente técnica.</p>
+                <p>El maestro Gichin Funakoshi, el fundador del estilo <Link href='/articulos/karate-shokotan'>Shokotan</Link>, decía entender el karate como &quot;el purgar de uno mismo los pensamientos egoístas y malos. Porque solo con la mente despejada y consciente puede uno entenderse, así como el conocimiento que recibe&quot;. De esta forma deja de verse al karate como un arte marcial más que sirve para aprender a pelear y a defenderse, y pasa a ser una herramienta más para crecer personalmente.</p>
             </section>
         </main>
     )
