@@ -81,7 +81,7 @@ export default function Articulos () {
                 <ArticleCard artiURL='/articulos/enpi-kata' artImage={enpi_kata} title='Enpi Kata' text='El kata Enpi (el vuelo de la golondrina) es uno de los katas más avanzados del estilo Shokotan...' />
                 <ArticleCard artiURL='/articulos/golpes-karate' artImage={golpe} title='Golpes de Karate' text='Los golpes de karateson diversos y dependen del estilo de karate que se esté aplicando, pero su lista consta de los siguientes...' />
                 <ArticleCard artiURL='/articulos/haito-karate' artImage={haito} title='Haito Karate' text='El Haito (revés de sable) es uno de los golpes más sencillos de karate...' />
-                <ArticleCard artiURL='/articulos/hiraken-kobudo' artImage={hiraken} title='Hiraken Karate' text='El Hiraken (puño de leopardo) es un golpe simple de karate...' />
+                <ArticleCard artiURL='/articulos/hiraken-karate' artImage={hiraken} title='Hiraken Karate' text='El Hiraken (puño de leopardo) es un golpe simple de karate...' />
                 <ArticleCard artiURL='/articulos/karate-byakuren' artImage={byakuren} title='Karate Byakuren' text='El karate Byakuren es un estilo de karate de full contacto fundado en 1984 por Sugihara Masayasu...' />
                 <ArticleCard artiURL='/articulos/karate-femenino' artImage={femenino} title='Karate Femenino' text='El karate femenino actualmente cuenta con referentes como Sandra Sánchez que actualmente es la número 1 a nivel mundial. Y en este articulo buscaremos dar la mayor cantidad de información respecto al karate femenino...' />
             </section>
