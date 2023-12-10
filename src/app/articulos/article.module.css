@@ -11,4 +11,13 @@
     .article__subtitle {
         text-align: center;
     }
+
+    .article {
+        width: 95%;
+        margin: 100px auto;
+    }
+    
+    .article__container {
+        width: 100%;
+    }
 }
