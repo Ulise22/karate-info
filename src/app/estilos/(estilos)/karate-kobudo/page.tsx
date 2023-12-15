@@ -1,5 +1,5 @@
 import ArticlesHero from '@/components/ArticlesHero'
-import styles from '../../../article.module.css'
+import styles from '@/app/articulos/article.module.css'
 import kobudo from '@/assets/articles-big/kobudo.jpg'
 
 export default function Kobudo () {

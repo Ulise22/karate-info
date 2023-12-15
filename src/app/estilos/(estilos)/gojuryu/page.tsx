@@ -1,6 +1,6 @@
 import ArticlesHero from '@/components/ArticlesHero'
 import gojuryu from '@/assets/articles-preview/gojuryu.jpg'
-import styles from '../../../article.module.css'
+import styles from '@/app/articulos/article.module.css'
 
 export default function Gojuryu () {
     return(

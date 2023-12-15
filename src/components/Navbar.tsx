@@ -22,6 +22,7 @@ export default function Navbar () {
                 <Link onClick={() => setMenu(!menu)} className={styles.navbar__list} href='/'><li>Inicio</li></Link>
                 <Link onClick={() => setMenu(!menu)} className={styles.navbar__list} href='/peleadores'><li>Peleadores</li></Link>
                 <Link onClick={() => setMenu(!menu)} className={styles.navbar__list} href='/articulos'><li>Artículos</li></Link>
+                <Link onClick={() => setMenu(!menu)} className={styles.navbar__list} href='/estilos'><li>Estílos</li></Link>
             </ul>
         </nav>
     )

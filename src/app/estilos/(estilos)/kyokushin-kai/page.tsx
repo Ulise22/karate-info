@@ -1,6 +1,6 @@
 import ArticlesHero from '@/components/ArticlesHero'
 import kyokushin  from '@/assets/articles-preview/kyokushin.jpg'
-import styles from '../../../article.module.css'
+import styles from '@/app/articulos/article.module.css'
 import Link from 'next/link'
 
 export default function Kyokushin () {
