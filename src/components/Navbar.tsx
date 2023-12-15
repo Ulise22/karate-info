@@ -19,38 +19,38 @@ export default function Navbar () {
                 }
             </div>
             <ul className={menu ? `${styles.navbar__container} ${styles.active}` : `${styles.navbar__container}`}>
-                <li className={styles.navbar__item}><Link onClick={() => setMenu(!menu)} className={styles.navbar__link} href='/'>Inicio</Link></li>
-                <li className={styles.navbar__item}><Link onClick={() => setMenu(!menu)} className={styles.navbar__link} href='/peleadores'>Peleadores</Link>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/'>Inicio</Link></li>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/peleadores'>Peleadores</Link>
                     <ul className={styles.navbar__item__dropdown}>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/peleadores/lidia-rodriguez'>Lidia Rodríguez</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/peleadores/rafael-aghayev'>Rafael Aghayev</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/peleadores/oscar-higa'>Oscar Higa</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/peleadores/yorgelis-salazar'>Yorgelis Salazar</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/peleadores/masutatsu-oyama'>Masutatsu Oyama</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/lidia-rodriguez'>Lidia Rodríguez</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/rafael-aghayev'>Rafael Aghayev</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/oscar-higa'>Oscar Higa</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/yorgelis-salazar'>Yorgelis Salazar</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/masutatsu-oyama'>Masutatsu Oyama</Link></li>
                     </ul>
                 </li>
-                <li className={styles.navbar__item}><Link onClick={() => setMenu(!menu)} className={styles.navbar__link} href='/articulos'>Artículos</Link>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/articulos'>Artículos</Link>
                     <ul className={styles.navbar__item__dropdown}>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/defensa-personal-karate'>Defensa Personal</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/karate-adultos'>Karate Adultos</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/dojo-karate'>Dojo</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/okinawa-karate'>Okinawa</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/karate-taekwondo'>Karate y Taekwondo</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/dojo-kun'>Dojo Kun</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/dans-karate'>Dans Karate</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/defensa-personal-karate'>Defensa Personal</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/karate-adultos'>Karate Adultos</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/dojo-karate'>Dojo</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/okinawa-karate'>Okinawa</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/karate-taekwondo'>Karate y Taekwondo</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/dojo-kun'>Dojo Kun</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/dans-karate'>Dans Karate</Link></li>
                     </ul>
                 </li>
-                <li className={styles.navbar__item}><Link onClick={() => setMenu(!menu)} className={styles.navbar__link} href='/estilos'>Estílos</Link>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/estilos'>Estílos</Link>
                     <ul className={styles.navbar__item__dropdown}>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/kyokushin-kai'>Kyokushin Kai</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/gojuryu'>Goju Ryu</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/articulos/karate-do'>Karate-do</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/karate-shokotan'>Shokotan</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/karate-kobudo'>Kobudo</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/karate-kata'>Karate Kata</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/shorinji-ryu'>Shonriji Ryu</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/karate-byakuren'>Karate Byakuren</Link></li>
-                        <li><Link className={styles.navbar__item_dropdown__link} href='/estilos/budo'>Budo</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/kyokushin-kai'>Kyokushin Kai</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/gojuryu'>Goju Ryu</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/karate-do'>Karate-do</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-shokotan'>Shokotan</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-kobudo'>Kobudo</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-kata'>Karate Kata</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/shorinji-ryu'>Shonriji Ryu</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-byakuren'>Karate Byakuren</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/budo'>Budo</Link></li>
                     </ul>
                 </li>
             </ul>
