@@ -1,5 +1,5 @@
 import ArticlesHero from '@/components/ArticlesHero'
-import styles from '../../../article.module.css'
+import styles from '@/app/articulos/article.module.css'
 import budo from '@/assets/articles-preview/budo.jpg'
 
 export default function Budo () {

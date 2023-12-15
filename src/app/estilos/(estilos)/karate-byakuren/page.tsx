@@ -1,5 +1,5 @@
 import ArticlesHero from '@/components/ArticlesHero'
-import styles from '../../../article.module.css'
+import styles from '@/app/articulos/article.module.css'
 import byakuren from '@/assets/articles-big/byakuren (2).jpg'
 
 export default function Byakuren () {
