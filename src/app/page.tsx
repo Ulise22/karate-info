@@ -1,16 +1,24 @@
 import styles from './page.module.css'
 /* Articles Images */
-import kobudo from '@/assets/homepage/articles/karate_kobudo.jpg'
-import kata from '@/assets/homepage/articles/karate_kata.jpg'
 import defensa from '@/assets/homepage/articles/defensa_personal.jpg'
-import shokotan from '@/assets/homepage/articles/shotokan.jpg'
-import shorinji from '@/assets/homepage/articles/shorinji_ryu.jpg'
 import adultos from '@/assets/homepage/articles/karate_adultos.jpg'
+import dans from '@/assets/articles-preview/dans.jpg'
+import taekwondo from '@/assets/homepage/articles/taekwondo-vs-karate.jpg'
+import dojoKun from '@/assets/homepage/articles/dojo_kun.svg'
+import miyagi from '@/assets/articles-preview/miyagi-do-karate.jpg'
+import aka from '@/assets/articles-preview/aka_ao.jpg'
+import chatanyara from '@/assets/articles-preview/chatanyara.jpg'
 /*Peleadores Images */
 import higa from '@/assets/homepage/peleadores/oscar_higa.jpg'
 import lidia from '@/assets/homepage/peleadores/lidia_rodriguez.jpg'
 import rafael from '@/assets/homepage/peleadores/aghayev_rafael.jpg'
 import yorgelis from '@/assets/homepage/peleadores/yorgelis_salazar.jpg'
+/* Estílos Images */
+import byakuren from '@/assets/articles-preview/byakuren.jpg'
+import shorinji from '@/assets/homepage/articles/shorinji_ryu.jpg'
+import kata from '@/assets/homepage/articles/karate_kata.jpg'
+import kobudo from '@/assets/homepage/articles/karate_kobudo.jpg'
+import shokotan from '@/assets/homepage/articles/shotokan.jpg'
 /* Componentes */
 import ArticleCard from '@/components/ArticleCard'
 import HeroHomepage from '@/components/homepage/Hero'
@@ -28,12 +36,14 @@ export default function Home() {
         <article className={styles.article}>
           <h2 className={styles.article__title}>Artículos de Karate</h2>
           <div className={styles.article__card__container}>
-            <ArticleCard artiURL='/articulos/karate-kobudo' artImage={kobudo} title='Karate Kobudo' text='El karate Kobudo es un arte marcial japonés que estudia el uso de las armas tradicionales de madera o metal...' />
-            <ArticleCard artiURL='/articulos/karate-kata' artImage={kata} title='Karate Kata' text='Los kata de karate son un conjunto de movimientos practicados solo o en pareja en una clase de artes marciales...' />
             <ArticleCard artiURL='/articulos/defensa-personal-karate' artImage={defensa} title='Defensa Personal Karate' text='¿Es efectivo el karate para la defensa personal? Como muchas artes marciales, saber karate puede ser útil a la hora de encontrarte en situaciones que requieran que te defiendas...' />
-            <ArticleCard artiURL='/articulos/karate-shokotan' artImage={shokotan} title='Karate Shokotan' text='El karate Shokotan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...' />
-            <ArticleCard artiURL='/articulos/shorinji-ryu' artImage={shorinji} title='Shorinji Ryu' text='El Shorinji Ryu es uno de los estilos más antiguos del karate okinawense. Sus katas combinan la distancia corta y la larga, los desplazamientos y técnicas combinan un rectilíneo con lo circular...' />
             <ArticleCard artiURL='/articulos/karate-adultos' artImage={adultos} title='Karate para Adultos' text='¿Se puede aprender karate siendo adulto? La respuesta es que se puede aprender karate a cualquier edad, pero perfeccionar las técnicas enseñadas requiere de un tiempo y una practica exhaustivas...' />
+            <ArticleCard artiURL='/articulos/dans-karate' artImage={dans} title='Dans Karate' text='Dan es la denominación que se le da a los diferentes rangos del sistema de graduación dankyuisei...' />
+            <ArticleCard artiURL='/articulos/karate-taekwondo' artImage={taekwondo} title='Karate y Taekwondo' text='La princiapal diferencia entre estas 2 artes marciales consiste en que el karate abarca movimientos más amplios que el taekwondo, que hace principalmente uso de las patadas...' />
+            <ArticleCard artiURL='/articulos/dojo-kun' artImage={dojoKun} title='Dojo Kun' text='El Dojo Kun es una serie de preceptos que suelen estar colgados en la pared de un dojo de artes marciales japonesas como el Karate o el Judo...' />
+            <ArticleCard artiURL='/articulos/miyagido-karate' artImage={miyagi} title='Miyagido Karate' text='El señor Miyagi debe ser una de las figuras de la cultura pop que más popularizó el karate en el mainstream con su aparición en Karate Kid...' />
+            <ArticleCard artiURL='/articulos/aka-ao-karate' artImage={aka} title='Aka Ao Karate' text='¿Qué significa aka y AO en karate? Al comienzo de cada encuentro, uno de los contendientes con cinturón rojo (AKA) y otro con cinturón azul (AO), se alinearán en el perímetro del área de competición mirando al Juez Jefe...' />
+            <ArticleCard artiURL='/articulos/chatan-yara' artImage={chatanyara} title='Chatan Yara' text='Chatan Yara es conocida como la primera en diseminar las artes marciales a través de la Isla de Okinawa...' />
           </div>
         </article>
         <article className={styles.article}>
@@ -48,6 +58,15 @@ export default function Home() {
         <article className={styles.article}>
           <h2 className={styles.article__title}>Historia del karate</h2>
           <p>Los orgines del karate datan del siglo XVI en lo que hoy en día es la Prefectura de Okinawa. Está fuertemente influenciado por las artes marciales chinas, el Kung Fu principalmente, y se caracterizó por hacer uso de los puños y de técnicas provenientes de la lucha nativa. Lo que inspiró e influenció al karate moderno tal y como lo hacemos hoy en día, tiene que ver distintas artes marciales japonesas del siglo XX, como lo son el <b>Kendo</b>, el <b>Judo</b> y el <b>Aikido</b>. Lo que dió lugar al antecesor del karate, el &quot;TE&quot;, fue la necesidad de los guerreros nobles de defender al último rey de Okinawa y a sí mismos de los invasores japoneses pertenecientes al clan Satsuma, los <b>Samuráis</b>, quienes perpetraban abusos a la población civil que vivía en aquellas islas.</p>
+        </article>
+        <article className={styles.article}>
+          <h2 className={styles.article__title}>Estílos de Karate</h2>
+          <div className={styles.article__card__container}>
+            <ArticleCard artiURL='/articulos/karate-kobudo' artImage={kobudo} title='Karate Kobudo' text='El karate Kobudo es un arte marcial japonés que estudia el uso de las armas tradicionales de madera o metal...' />
+            <ArticleCard artiURL='/articulos/karate-kata' artImage={kata} title='Karate Kata' text='Los kata de karate son un conjunto de movimientos practicados solo o en pareja en una clase de artes marciales...' />
+            <ArticleCard artiURL='/articulos/karate-shokotan' artImage={shokotan} title='Karate Shokotan' text='El karate Shokotan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...' />
+            <ArticleCard artiURL='/articulos/shorinji-ryu' artImage={shorinji} title='Shorinji Ryu' text='El Shorinji Ryu es uno de los estilos más antiguos del karate okinawense. Sus katas combinan la distancia corta y la larga, los desplazamientos y técnicas combinan un rectilíneo con lo circular...' />
+          </div>
         </article>
       </section>
     </main>
