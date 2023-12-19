@@ -14,7 +14,6 @@ import lidia from '@/assets/homepage/peleadores/lidia_rodriguez.jpg'
 import rafael from '@/assets/homepage/peleadores/aghayev_rafael.jpg'
 import yorgelis from '@/assets/homepage/peleadores/yorgelis_salazar.jpg'
 /* Estílos Images */
-import byakuren from '@/assets/articles-preview/byakuren.jpg'
 import shorinji from '@/assets/homepage/articles/shorinji_ryu.jpg'
 import kata from '@/assets/homepage/articles/karate_kata.jpg'
 import kobudo from '@/assets/homepage/articles/karate_kobudo.jpg'

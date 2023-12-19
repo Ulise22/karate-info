@@ -45,7 +45,7 @@ export default function Navbar () {
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/kyokushin-kai'>Kyokushin Kai</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/gojuryu'>Goju Ryu</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/karate-do'>Karate-do</Link></li>
-                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-shokotan'>Shokotan</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-shotokan'>Shotokan</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-kobudo'>Kobudo</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/karate-kata'>Karate Kata</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/shorinji-ryu'>Shonriji Ryu</Link></li>

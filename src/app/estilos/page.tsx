@@ -26,7 +26,7 @@ export default function Estilos () {
                     <h2 className={styles.articulos__hero__title}>Kyokushin Kai</h2>
                     <p className={styles.articulos__hero__text}>Kyokushinkai (que en español significa algo así como &quot;Sociedad de la Última Verdad&quot; o &quot;Verdad Definitiva&quot;) es un estilo de karate fundado de 1953 por el maestro de artes marciales japonés Masutatsu Oyama. Tiene como objetivo la eficacia en el combate real...</p>
                 </Link>
-                <Link href='/estilos/karate-shokotan' className={`${styles.articulos__hero__container} ${styles.normal2}`}>
+                <Link href='/estilos/karate-shotokan' className={`${styles.articulos__hero__container} ${styles.normal2}`}>
                     <Image className={styles.articulos__hero__image} src={shokotan} alt='' />
                     <h2 className={styles.articulos__hero__title}>Karate Shokotan</h2>
                     <p className={styles.articulos__hero__text}>El karate Shokotan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...</p>
