@@ -28,8 +28,8 @@ export default function Estilos () {
                 </Link>
                 <Link href='/estilos/karate-shotokan' className={`${styles.articulos__hero__container} ${styles.normal2}`}>
                     <Image className={styles.articulos__hero__image} src={shokotan} alt='' />
-                    <h2 className={styles.articulos__hero__title}>Karate Shokotan</h2>
-                    <p className={styles.articulos__hero__text}>El karate Shokotan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...</p>
+                    <h2 className={styles.articulos__hero__title}>Karate Shotokan</h2>
+                    <p className={styles.articulos__hero__text}>El karate Shotokan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...</p>
                 </Link>
                 <Link href='/articulos/karate-do' className={styles.articulos__hero__principal}>
                     <Image className={styles.articulos__hero__principal__image} src={kdokata} alt='' />
