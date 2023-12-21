@@ -30,7 +30,7 @@ export default function DojoKun () {
                     Tratar de superarse.<br />
                     Respetar a los demás.<br />
                     Abstenerse de procederes violentos.</b></p>
-                                </section>
+            </section>
         </main>
     )
 }
