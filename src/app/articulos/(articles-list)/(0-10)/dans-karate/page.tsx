@@ -7,7 +7,7 @@ export default function Dans () {
         <main className={styles.article}>
             <ArticlesHero title='Dans Karate' img={dans} />
             <section className={styles.article__container}>
-                <h1>Article</h1>
+                <p>Dan es el nombre que reciben los diferentes niveles del sistema de graduación <b>Dankyuisei</b>, que en el contexto del karate habla de la jerarquía que reciben los practicantes de las artes marciales japonesas.</p>
             </section>
         </main>
     )

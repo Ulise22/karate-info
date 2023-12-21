@@ -8,6 +8,15 @@
     justify-content: space-around;
 }
 
+.footer__link {
+    color: #444;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #000;
+}
+
 .footer__line {
     height: 1px;
     width: 80%;
@@ -29,6 +38,7 @@
     .footer__container {
         font-size: 14px;
         gap: 10px;
-        justify-content: center;
+        flex-direction: column;
+        text-align: center;
     }
 }
