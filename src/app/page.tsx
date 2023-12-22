@@ -5,9 +5,9 @@ import adultos from '@/assets/homepage/articles/karate_adultos.jpg'
 import dans from '@/assets/articles-preview/dans.jpg'
 import taekwondo from '@/assets/homepage/articles/taekwondo-vs-karate.jpg'
 import dojoKun from '@/assets/homepage/articles/dojo_kun.svg'
-import miyagi from '@/assets/articles-preview/miyagi-do-karate.jpg'
 import aka from '@/assets/articles-preview/aka_ao.jpg'
 import enpi_kata from '@/assets/articles-preview/enpi_kata.jpg'
+import marcial from '@/assets/articles-preview/am_karate.jpg'
 /*Peleadores Images */
 import higa from '@/assets/homepage/peleadores/oscar_higa.jpg'
 import lidia from '@/assets/homepage/peleadores/lidia_rodriguez.jpg'
@@ -40,9 +40,9 @@ export default function Home() {
             <ArticleCard artiURL='/articulos/dans-karate' artImage={dans} title='Dans Karate' text='Dan es la denominación que se le da a los diferentes rangos del sistema de graduación dankyuisei...' />
             <ArticleCard artiURL='/articulos/karate-taekwondo' artImage={taekwondo} title='Karate y Taekwondo' text='La princiapal diferencia entre estas 2 artes marciales consiste en que el karate abarca movimientos más amplios que el taekwondo, que hace principalmente uso de las patadas...' />
             <ArticleCard artiURL='/articulos/dojo-kun' artImage={dojoKun} title='Dojo Kun' text='El Dojo Kun es una serie de preceptos que suelen estar colgados en la pared de un dojo de artes marciales japonesas como el Karate o el Judo...' />
-            <ArticleCard artiURL='/articulos/miyagido-karate' artImage={miyagi} title='Miyagido Karate' text='El señor Miyagi debe ser una de las figuras de la cultura pop que más popularizó el karate en el mainstream con su aparición en Karate Kid...' />
             <ArticleCard artiURL='/articulos/aka-ao-karate' artImage={aka} title='Aka Ao Karate' text='¿Qué significa aka y AO en karate? Al comienzo de cada encuentro, uno de los contendientes con cinturón rojo (AKA) y otro con cinturón azul (AO), se alinearán en el perímetro del área de competición mirando al Juez Jefe...' />
             <ArticleCard artiURL='/articulos/enpi-kata' artImage={enpi_kata} title='Enpi Kata' text='El kata Enpi (el vuelo de la golondrina) es uno de los katas más avanzados del estilo Shokotan...' />
+            <ArticleCard artiURL='/articulos/arte-marcial-karate' artImage={marcial} title='Arte Marcial Karate' text='El karate es un arte marcial ded origen asiático, con raíces en otras artes marciales chinas y que sobre todo se popularizó en japón...' />
           </div>
         </article>
         <article className={styles.article}>
