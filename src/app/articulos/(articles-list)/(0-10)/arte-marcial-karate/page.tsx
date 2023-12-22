@@ -1,13 +1,21 @@
 import ArticlesHero from '@/components/ArticlesHero'
 import styles from '../../../article.module.css'
 import artemarcial from '@/assets/articles-big/am_karate (2).jpg'
+import Link from 'next/link'
 
 export default function ArteMarcial () {
     return(
         <main className={styles.article}>
             <ArticlesHero title='Karate Arte Marcial' img={artemarcial} />
             <section className={styles.article__container}>
-                <h1>Article</h1>
+                <p>El karate es un arte marcial japonés que hace uso de las técnicas de golpeo con manos, con pies, con codos y rodillas, así como del bloqueo y agarre con el objetivo de desarrollar la disciplina física y mental. Con estos objetivos es que fue inventado en la isla japonesa de Okinawa, de donde se remontan sus raíces y donde se cree que se dio origen a este arte marcial. Fue después de la Segunda Guerra Mundial, sobre todo, cuando alcanzó un alto grado de popularidad en Japón y cuando comenzó a esparcirse alrededor del mundo.</p>
+                <p>El karate comprende dos modalidades: kumite y kata. En kumite, o combate, el vencedor de los combates de tres minutos es el que obtiene una clara ventaja de ocho puntos, o el competidor que tiene el mayor número de puntos en el momento que se acaba el tiempo. Si el combate queda en tablas, el ganador se determina por el primer punto de ventaja sin oposición (senshu) o, en caso de resultado sin puntuación, por decisión mayoritaria de los jueces (hantei).</p>
+                <p>En dicho combate se puntúa en base a las técnicas de puños, golpes y patadas ejecutadas correctamente. A los puntos otorgados, se los conoce como &quot;Yuko&quot;, y son otorgados por cada puñetazo con la mano cerrada (tsuki) que termine en la cabeza, en el cuello, en el vientre, en el costada, en la espalda o en el torso del rival. Se condecen 2 puntos, también llamados &quot;Waza-ari&quot; por cada patada al cuerpo. Se conceden 3 puntos, o &quot;Ippon&quot; por cada patada alta a la cabeza o por cada puñetazo propinado al adversario que ha sido derribado tras un barrido o derribo.</p>
+                <p>Mientras que en el <Link href='/estilos/karate-kata'>Kata</Link>, quienes compiten deben ejecutar una serie de movimientos coreagrafiados y aprobados previo al inicio del certamen. El ganador de esta competición es elegido por un grupo de jueces en base a un sistema de votación electrónica, en que se tendrá en cuenta las actuaciones ténicas y atléticas de los karatecas para evaluarlos.</p>
+                <p>La indumentaria que se suele utilizar en este arte marcial, consta en el uso del <b>Karetegi</b> o <b>keilogi</b> que esta compuesto por una chaqueta generalmente blanca, por un pantalón y por el cinturón.</p>
+                <p>Es un arte marcial que emplea en mayor medida que el resto de las artes marciales ataques y golpes directos, penetrantes, generalmente rectos y potentes. Las técnicas utilizan diferentes partes del cuerpo para golpear, como las manos (canto, palma, dedos, nudillos), los pies (talón, canto externo, planta, base o punta de los dedos), los codos, las rodillas o la cabeza, y el hueso tibial en algunos estilos.</p>
+                <p>El karate enfatiza la alineación corporal, los bloqueos, los golpes, los desplazamientos, los barridos y los contraataques, posteriormente se ocupa de los lanzamientos y luxaciones, para llegar a los puntos vulnerables y al estudio de los circuitos de puntos vitales del cuerpo, para buscar la mayor efectividad en los golpes dados, tal y como hacían sus predecesoras, las artes marciales chinas.</p>
+                <p>Este arte marcial además a servido de base para otros deportes por fuera del karate, como por ejemplo lo son las MMA. Un caso conocido es el del histórico y talentoso peleador canadiense de UFC, <b>Georges St-Pierre</b>, quien supo ser capeón del peso welter de la compañía en 2 ocasiones y camepón del peso medio 2017, lo que lo volvió uno ded los pocos doble campeón de la compañía, además fue nombrado durante 3 años consecutivos, en 2008, 2009 y 2010 como el Atleta canadiense del Año por Rogers Sportsnet. Estos logros dificilmente hubieran sido alcanzados si a la edad de 7 años, no hubiera comenzado a entrenar karate, especializandose en el estilo <Link href='/estilos/kyokushin-kai'>Kyokushin</Link>.</p>
             </section>
         </main>
     )
