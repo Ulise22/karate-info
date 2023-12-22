@@ -14,7 +14,6 @@ import miyagi from '@/assets/articles-preview/miyagi-do-karate.jpg'
 import aka from '@/assets/articles-preview/aka_ao.jpg'
 import dans from '@/assets/articles-preview/dans.jpg'
 import marcial from '@/assets/articles-preview/am_karate.jpg'
-import chatanyara from '@/assets/articles-preview/chatanyara.jpg'
 import enpi_kata from '@/assets/articles-preview/enpi_kata.jpg'
 import golpe from '@/assets/articles-preview/golpe.jpg'
 import haito from '@/assets/articles-preview/haito.png'
@@ -62,12 +61,11 @@ export default function Articulos () {
                 <ArticleCard artiURL='/articulos/aka-ao-karate' artImage={aka} title='Aka Ao Karate' text='¿Qué significa aka y AO en karate? Al comienzo de cada encuentro, uno de los contendientes con cinturón rojo (AKA) y otro con cinturón azul (AO), se alinearán en el perímetro del área de competición mirando al Juez Jefe...' />
                 <ArticleCard artiURL='/articulos/dans-karate' artImage={dans} title='Dans Karate' text='Dan es la denominación que se le da a los diferentes rangos del sistema de graduación dankyuisei...' />
                 <ArticleCard artiURL='/articulos/arte-marcial-karate' artImage={marcial} title='Arte Marcial Karate' text='El karate es un arte marcial ded origen asiático, con raíces en otras artes marciales chinas y que sobre todo se popularizó en japón...' />
-                <ArticleCard artiURL='/articulos/chatan-yara' artImage={chatanyara} title='Chatan Yara' text='Chatan Yara es conocida como la primera en diseminar las artes marciales a través de la Isla de Okinawa...' />
                 <ArticleCard artiURL='/articulos/enpi-kata' artImage={enpi_kata} title='Enpi Kata' text='El kata Enpi (el vuelo de la golondrina) es uno de los katas más avanzados del estilo Shokotan...' />
                 <ArticleCard artiURL='/articulos/golpes-karate' artImage={golpe} title='Golpes de Karate' text='Los golpes de karate son diversos y dependen del estilo de karate que se esté aplicando, pero su lista consta de los siguientes...' />
                 <ArticleCard artiURL='/articulos/haito-karate' artImage={haito} title='Haito Karate' text='El Haito (revés de sable) es uno de los golpes más sencillos de karate...' />
                 <ArticleCard artiURL='/articulos/hiraken-karate' artImage={hiraken} title='Hiraken Karate' text='El Hiraken (puño de leopardo) es un golpe simple de karate...' />
-                <ArticleCard artiURL='/articulos/karate-femenino' artImage={femenino} title='Karate Femenino' text='El karate femenino actualmente cuenta con referentes como Sandra Sánchez que actualmente es la número 1 a nivel mundial. Y en este articulo buscaremos dar la mayor cantidad de información respecto al karate femenino...' />
+                <ArticleCard artiURL='/articulos/karate-femenino' artImage={femenino} title='Karate Femenino' text='¿Como afecta a las mujeres practicar karate? ¿Cuales son las karatekas femeninas más conocidas y destacadas?' />
             </section>
         </main>
     )
