@@ -40,6 +40,7 @@ export default function Navbar () {
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/dans-karate'>Dans Karate</Link></li>
                     </ul>
                 </li>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/famosos'>Famosos</Link></li>
                 <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/estilos'>Estílos</Link>
                     <ul className={styles.navbar__item__dropdown}>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/kyokushin-kai'>Kyokushin Kai</Link></li>
@@ -53,6 +54,7 @@ export default function Navbar () {
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/budo'>Budo</Link></li>
                     </ul>
                 </li>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/contacto'>Contacto</Link></li>
             </ul>
         </nav>
     )

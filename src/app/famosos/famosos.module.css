@@ -1,0 +1,35 @@
+.famosos {
+    margin-top: 80px;
+}
+
+.famosos__header {
+    margin: 0 auto;
+    margin-top: 130px;
+    border-bottom: 1px solid #999;
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 0px;
+}
+
+.famosos__container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .famosos__header {
+        width: 95%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .famosos__header {
+        line-height: 36px;
+    }
+}
