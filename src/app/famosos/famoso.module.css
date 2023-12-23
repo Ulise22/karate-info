@@ -1,0 +1,37 @@
+.famoso {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.famoso__article {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .famoso {
+        width: 90%;
+    }
+
+    .famoso__article {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .famoso {
+        width: 95%;
+    }
+
+    .famoso__article {
+        width: 100%;
+    }
+
+    .famoso__article__text {
+        font-size: 15px;
+    }
+
+    .famoso__article__subtitle {
+        text-align: center;
+    }
+}
