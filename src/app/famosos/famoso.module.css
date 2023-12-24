@@ -8,6 +8,13 @@
     margin: 0 auto;
 }
 
+.famoso__article__video {
+    max-width: 700px;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+}
+
 @media screen and (max-width: 1280px) {
     .famoso {
         width: 90%;
@@ -34,4 +41,12 @@
     .famoso__article__subtitle {
         text-align: center;
     }
+
+    .famoso__article__video {
+        max-width: 700px;
+        width: 100%;
+        min-height: 220px;
+        height: 100%;
+    }
+    
 }

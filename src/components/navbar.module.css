@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 810px) {
     .navbar__menu {
         display: block;
         margin-right: 20px;
