@@ -40,7 +40,15 @@ export default function Navbar () {
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/articulos/dans-karate'>Dans Karate</Link></li>
                     </ul>
                 </li>
-                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/famosos'>Famosos</Link></li>
+                <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/famosos'>Famosos</Link>
+                    <ul className={styles.navbar__item__dropdown}>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/famosos/chuck-norris'>Chuck Norris</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/famosos/bruce-lee'>Bruce Lee</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/famosos/dolph-lundgren'>Dolph Lundgren</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/famosos/jean-claude-van-damme'>Jean-Claude Van Damme</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/famosos/michael-jai-white'>Michael Jai White</Link></li>
+                    </ul>
+                </li>
                 <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/estilos'>Estílos</Link>
                     <ul className={styles.navbar__item__dropdown}>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/estilos/kyokushin-kai'>Kyokushin Kai</Link></li>
