@@ -1,13 +1,21 @@
 import styles from '@/app/famosos/famoso.module.css'
 import dolph from '@/assets/famosos/dolph_hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
+import Link from 'next/link'
 
 export default function Dolph () {
     return(
         <main className={styles.famoso}>
             <ArticlesHero title='Dolph Lundgren' img={dolph} />
             <section className={styles.famoso__article}>
-                <p></p>
+                <p>Dolph Lundgren es un famoso actor de hollywood sueco, aunque también supo ser director, guionista, ingeniero químico, modelo y especialista en artes marciales, siendo un conocedor tanto del Judo como del <Link href='/articulos/karate-do'>Karate-do</Link>, llegando a ser cinturón negro 4° dan en el estilo <Link href='/estilos/kyokushin-kai'>Kyokushinkai</Link>. También cuenta con experiencia como boxeador amateur, participando de una pelea de exhibición contra Oleg Taktarov en 2007. Tiene una maestría en Ingeniería Química formación académica en el MIT en esa misma área de la ciencia, y es políglota, ya que domina seis idiomas. Probablemente el grueso de su fama y reconocimiento se deba al mítico papel de <b>Drago</b> en <b>Rocky IV</b> que le tocó interpretar en 1985.</p>
+                <p>Hans Lundgren, nació el 3 de noviembre de 1957 en la provincia sueca de Estocolmo. Realizó el servicio militar en su país y se graduó en el Instituto Real Sueco de Tecnología.  Luego obtuvo un máster en ingeniería química en la Universidad de Estocolmo (1982), centro donde compaginaba sus estudios con el trabajo de portero/guardaespaldas en una discoteca. Al siguiente año consiguió una beca de matemáticas en el MIT en 1983.</p>
+                <p>En uno de sus viajes a Boston fue cuando consiguió la oportunidad de su vida que le abriría las puertas al mundo de Hollywood, donde Warren Robertson le ofreció la oportunidad de presentarse al casting para el papel de Ivan Drago en Rocky IV. 9 meses después de realizar su audición, recibió la llamada de <b>Sylvester Stallone</b>, quien le comunicó que había conseguido el papel gracias a su estupenda imagen y gran musculatura tan apropiada para ese papel.</p>
+                <p>Entre las diferentes relaciones que supo tener a lo largo de su vida, destaca la que mantuvo con Anette Qviberg, diseñadora de joyería y estilista de moda desde 1994, con quien se casó y con quien tuvo 2 hijas, Idis Lundgren y Greta Eveline Lundgren.</p>
+                <h2 className={styles.famosos__article__subtitle}>Dolph Lundgren Karate</h2>
+                <p>Fue a la edad de 16 años cuando Dolph comenzó a interesarse en las artes marciales, en un principio entrenando Judo, aunque dejó este al poco tiempo para meterse de lleno en el Karate, arte marcial en el cual ostenta el grado de cinturón negro cuarto Dan en karate estilo Kyokushinkai, asimismo ganó los campeonatos de karate a pleno contacto europeos en 1980 y 1981 y un torneo de peso pesado en Australia en 1982. Fue también miembro del equipo de precipitación de karate Kyokushin sueco para el Torneo Abierto del Mundo de 1979, arreglado por la Organización de Karate Kyokushin. Actualmente es un difusor incansable de este estilo de karate a nivel mundial, con cursos y demostraciones.</p>
+                <h2 className={styles.famosos__article__subtitle}>Dolph Lundgren Cáncer</h2>
+                <p>Dolph Lundgren confesó recientemente en 2023 que le tocó sufrir una severa lucha contra un cáncer de riñón, que le fue diagnosticado en 2015, cuando ya era de avanzada etapa, y convirtiendosé en agresivo en 2020, al punto tal de que un médico le llegó a decir que le quedaba entre 2 o 3 años de vida, &quot;Estaba de vuelta en Suecia y tenía algún tipo de reflujo ácido, no sabía qué era, así que me hice una resonancia magnética. Descubrieron que había algunos tumores más alrededor de esa área. Encontraron un tumor más en el hígado. En ese momento me di cuenta de que esto era algo serio&quot; contó el mismo Dolph. Gracias a la ayuda de un especialista y con tratamiento particular fue capaz de superar esta sombría enfermedad en 2023, cuando se animaría a contar todo lo que tuvo que pasar.</p>
                 <h2 className={styles.famosos__article__subtitle}>Dolph Lundgren Películas</h2>
                 <p>Las películas en las que Dolph Lundgren ha participado, ya sea de forma protagonica o interpretando personajes secundarios son:</p>
                 <ul>
