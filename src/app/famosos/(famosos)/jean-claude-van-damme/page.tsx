@@ -1,14 +1,22 @@
 import styles from '@/app/famosos/famoso.module.css'
 import vanDamme from '@/assets/famosos/van_damme-hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
+import Link from 'next/link'
 
 export default function VanDamme () {
     return(
         <main className={styles.famoso}>
             <ArticlesHero title='Jean-Claude Van Damme' img={vanDamme} />
             <section className={styles.famoso__article}>
-                <p></p>
-                <h2 className={styles.famoso__article__subtitle}>Jean-Claude Van Damme</h2>
+                <p>Jean-Claude Van Damme es famoso actor de hollywood, guionista, productor, director, editor de cine, boxeador, kickbóxer, karateca, escenógrafo, artista marcial, actor de voz y compositor que vislumbró a todos con sus increíbles películas en donde demostraba al mundo su capacidad de ejecutar escenas de acción a la perfección gracias a sus dotes como artista marcial.</p>
+                <p>Su nombre completo es <b>Jean-Claude Camille François Van Varenberg</b> y nació el 18 de octubre de 1960 en la capital de Bélgica, Bruselas. Es hijo de Eliana y Eugène van Varenberg, su madre contadora pública y su padre florista.</p>
+                <p>Desde pequeño, Van Damme era un gran admirador de las películas de acción protagonizadas por actores como <Link href='/famosos/bruce-lee'>Bruce Lee</Link> o <b>Steve McQueen</b>, por lo que a la edad de 10 años comenzó a entrenar karate en el <b>Centro Nacional de Karate</b> en Brucelas, donde se inició en el estilos <Link href='/estilos/karate-shotokan'>Shotokan</Link> bajo la enseñanza del maestro Claude Goetz. Al mismo tiempo, comenzó a tomar clases de balet durante 5 años con la finalidad de ganar flexibilidad, danza de la que dijo: &quot;Si puedes sobrevivir a un entrenamiento de ballet, puedes sobrevivir a un entrenamiento de cualquier otro deport&quot;. Durante su adolescencia comenzó a entrenar con pesas para mejorar su aspecto físico y desarrollar musculatura, hasta que en 1978 montó su propio gimnasio en la ciudad donde había nacido, llamado &quot;California Gym&quot;. Más tarde Van Damme terminaría ganando el título de fisicoculturismo &quot;Míster Bélgica&quot;.</p>
+                <p>En 1982 viajó a Estados Unidos a Los Ángeles para lograr convertirse en actor de cine, durante el tiempo que vivió allí, mientras buscaba su primer papel, trabajó como taxista, repartidor de pizza, conductor de limunsinas, guardaespaldas, instructor de karate, y masajista, entre otros. Su primer papel lo conseguiría gracias a la ayuda de <Link href='/famosos/chuck-norris'>Chuck Norris</Link> con quien había estado entrenando hacía varios meses. Norris le había conseguido un pequeño papel en la cinta de acción Missing in Action de 1984.</p>
+                <p>Su primer éxito llegaría con la película <b>Contacto Sangriento</b>, la cual protagonizaría en 1988 y la cual lo llevaría a la fama mundial como actor de artes marciales. Este éxito es el que precedería a su protagónico <b>Kickboxer</b> de 1989, que lo comenzaría a consolidar en la industria.</p>
+                <h2 className={styles.famoso__article__subtitle}>Jean-Claude Van Damme Karate</h2>
+                <p>A los 15 años, comenzó su carrera competitiva en Bélgica, llegando a ser parte del equipo nacional de <Link href='/articulos/karate-do'>Karate-do</Link>. Un año después comenzaría a competir en la modalidad <b>Full Contact</b>, logrando de 1976 a 1980, obtuvo un récord de 44 victorias y 4 derrotas en peleas dentro y fuera de torneos de contacto y semi-contact. Siendo miembro del equipo belga de karate, consiguió ganar el campeonato europeo el 26 de diciembre de 1979 en Le Coupe Francois Persoons en Bruselas.</p>
+                <p>Van Damme ya venía entrenando karate desde los 10 años de edad, especializandose en el estilos Shotokan, donde luego de años de entrenamiento terminaría consiguiendo el cinturón negro de primer <Link href='/articulos/dans-karate'>Dan</Link>.</p>
+                <h2 className={styles.famoso__article__subtitle}>Jean-Claude Van Damme Películas</h2>
                 <p>La lista de las películas de Jean-Claude Van Damme está compuesta por: </p>
                 <ul>
                     <li>(1979) -	Een vrouw tussen hond en wolf</li>
