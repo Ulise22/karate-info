@@ -22,7 +22,7 @@
     "react-dom": "^18"
   },
   "engines": {
-    "node": "18.19.0"
+    "node": "20.x"
   },
   "devDependencies": {
     "@types/node": "^20",
