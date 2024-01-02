@@ -1,6 +1,7 @@
 import styles from './articulos.module.css'
 import ArticleCard from '@/components/ArticleCard'
 import Image from 'next/image'
+import Link from 'next/link'
 /* Hero Images */
 import kdokata from '@/assets/articles-preview/karatedokata.jpg'
 import dojo from '@/assets/articles-preview/dojo.jpg'
@@ -18,7 +19,7 @@ import golpe from '@/assets/articles-preview/golpe.jpg'
 import haito from '@/assets/articles-preview/haito.png'
 import hiraken from '@/assets/articles-preview/hiraken.png'
 import femenino from '@/assets/articles-preview/femenino.jpg'
-import Link from 'next/link'
+import senteNashi from '@/assets/articles-preview/ni_sante_nashi.jpg'
 
 export default function Articulos () {
     return(
@@ -64,6 +65,7 @@ export default function Articulos () {
                 <ArticleCard artiURL='/articulos/haito-karate' artImage={haito} title='Haito Karate' text='El Haito (revés de sable) es uno de los golpes más sencillos de karate...' />
                 <ArticleCard artiURL='/articulos/hiraken-karate' artImage={hiraken} title='Hiraken Karate' text='El Hiraken (puño de leopardo) es un golpe simple de karate...' />
                 <ArticleCard artiURL='/articulos/karate-femenino' artImage={femenino} title='Karate Femenino' text='¿Como afecta a las mujeres practicar karate? ¿Cuales son las karatekas femeninas más conocidas y destacadas?' />
+                <ArticleCard artiURL='/articulos/karate-ni-sente-nashi' artImage={senteNashi} title='Karate Ni Sente Nashi' text='La frase "Karate ni Sente Nashi" es una de las más importantes del karate...' />
             </section>
         </main>
     )
