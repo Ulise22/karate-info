@@ -20,6 +20,7 @@ import haito from '@/assets/articles-preview/haito.png'
 import hiraken from '@/assets/articles-preview/hiraken.png'
 import femenino from '@/assets/articles-preview/femenino.jpg'
 import senteNashi from '@/assets/articles-preview/ni_sante_nashi.jpg'
+import os from '@/assets/articles-preview/oss.png'
 
 export default function Articulos () {
     return(
@@ -66,6 +67,7 @@ export default function Articulos () {
                 <ArticleCard artiURL='/articulos/hiraken-karate' artImage={hiraken} title='Hiraken Karate' text='El Hiraken (puño de leopardo) es un golpe simple de karate...' />
                 <ArticleCard artiURL='/articulos/karate-femenino' artImage={femenino} title='Karate Femenino' text='¿Como afecta a las mujeres practicar karate? ¿Cuales son las karatekas femeninas más conocidas y destacadas?' />
                 <ArticleCard artiURL='/articulos/karate-ni-sente-nashi' artImage={senteNashi} title='Karate Ni Sente Nashi' text='La frase "Karate ni Sente Nashi" es una de las más importantes del karate...' />
+                <ArticleCard artiURL='/articulos/karate-os' artImage={os} title='Karate Oss' text='Oss es una palabra que se usa constantemente en karate, pero ¿qué significa realmente?' />
             </section>
         </main>
     )
