@@ -14,6 +14,9 @@ import shorinji from '@/assets/homepage/articles/shorinji_ryu.jpg'
 import budo from '@/assets/articles-preview/budo.jpg'
 import byakuren from '@/assets/articles-preview/byakuren.jpg'
 import shudokan from '@/assets/articles-preview/shudokan.jpg'
+import wadoRyu from '@/assets/articles-preview/wado_ryu.jpg'
+import shitoRyu from '@/assets/articles-preview/shito_ryu.jpg'
+import genseiryu from '@/assets/articles-preview/genseiryu.jpg'
 
 export default function Estilos () {
     return(
@@ -54,6 +57,9 @@ export default function Estilos () {
                 <ArticleCard artiURL='/estilos/karate-byakuren' artImage={byakuren} title='Karate Byakuren' text='El karate Byakuren es un estilo de karate de full contacto fundado en 1984 por Sugihara Masayasu...' />
                 <ArticleCard artiURL='/estilos/budo' artImage={budo} title='Budo' text='El budo hace referencia al conocimiento técnico de las artes marciales mixtas y al conjunto de normas éticas para sus practicantes' />
                 <ArticleCard artiURL='/estilos/karate-shudokan' artImage={shudokan} title='Shudokan' text='El Shudokan es una escuela de kárate creada en 1932 por Kanken Toyama...' />
+                <ArticleCard artiURL='/estilos/wado-ryu' artImage={wadoRyu} title='Wadō-ryū' text='El Wado Ryu es uno de los 4 estilos principales del Karate-Do tradicional fundado por el maestro Hironori Otsuka...' />
+                <ArticleCard artiURL='/estilos/shito-ryu' artImage={shitoRyu} title='Shitō-ryū' text='El Shitō-ryū es un estilo de karate fundado por el maestro Kenwa Mabuni en 1931...' />
+                <ArticleCard artiURL='/estilos/karate-gensei-ryu' artImage={genseiryu} title='Genseiryū' text='Genseiryū es un estilo de karate fundado oficialmente en 1953 por el maestro Seiken Shukumine...' />
             </section>
         </main>
     )
