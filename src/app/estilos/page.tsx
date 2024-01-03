@@ -13,6 +13,7 @@ import kata from '@/assets/homepage/articles/karate_kata.jpg'
 import shorinji from '@/assets/homepage/articles/shorinji_ryu.jpg'
 import budo from '@/assets/articles-preview/budo.jpg'
 import byakuren from '@/assets/articles-preview/byakuren.jpg'
+import shudokan from '@/assets/articles-preview/shudokan.jpg'
 
 export default function Estilos () {
     return(
@@ -52,6 +53,7 @@ export default function Estilos () {
                 <ArticleCard artiURL='/estilos/shorinji-ryu' artImage={shorinji} title='Shorinji Ryu' text='El Shorinji Ryu es uno de los estilos más antiguos del karate okinawense. Sus katas combinan la distancia corta y la larga, los desplazamientos y técnicas combinan un rectilíneo con lo circular...' />
                 <ArticleCard artiURL='/estilos/karate-byakuren' artImage={byakuren} title='Karate Byakuren' text='El karate Byakuren es un estilo de karate de full contacto fundado en 1984 por Sugihara Masayasu...' />
                 <ArticleCard artiURL='/estilos/budo' artImage={budo} title='Budo' text='El budo hace referencia al conocimiento técnico de las artes marciales mixtas y al conjunto de normas éticas para sus practicantes' />
+                <ArticleCard artiURL='/estilos/karate-shudokan' artImage={shudokan} title='Shudokan' text='El Shudokan es una escuela de kárate creada en 1932 por Kanken Toyama...' />
             </section>
         </main>
     )
