@@ -1,0 +1,20 @@
+.article {
+    text-decoration: none;
+    color: #000;
+    width: 300px;
+}
+
+.article:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
+.article__image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article__title {
+    text-align: center;
+    padding: 2px;
+}
