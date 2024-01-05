@@ -13,7 +13,7 @@ export default function Privacidad () {
             <ul>
                 <li><b>Responsable:</b>  Ulises Pablo Montenegro.</li>
                 <li><b>Correo electrónico:</b>  ulimontenegro23@gmail.com</li>
-                <li><b>Sitio Web:</b>  https://promma.vercel.app/</li>
+                <li><b>Sitio Web:</b>  https://karate-info.com</li>
             </ul>
 
             <h2 className={styles.titles}>Principios aplicados en el tratamiento de datos</h2>
