@@ -1,0 +1,25 @@
+import styles from '../../components/peleador.module.css'
+import petit from '@/assets/peleadores/petit.jpg'
+import ArticlesHero from '@/components/ArticlesHero'
+import Link from 'next/link'
+
+export default function Petit () {
+    return(
+        <main className={styles.peleador}>
+            <ArticlesHero title='Arturo Petit' img={petit} />
+            <section className={styles.peleador__article}>
+                <h2 className={styles.peleador__article__subtitle}>Arturo Petit Karate</h2>
+                <p className={styles.peleador__article__text}>Arturo Petit es un karateca chileno, que destaca por ser uno de los más reconocidos, tanto en su país, como en latinoamérica en general. Ganado notoriedad por ser quien introduciría el Kempo en la región.</p>
+                <p className={styles.peleador__article__text}>Arturo Petit Almonte nació el 6 de junio de 1943 en la ciudad de Antofagasta en Chile, siendo hijo de Arturo Santiago Petit Díaz y Nelly Almonte Ceballos. Sus estudios primarios y secundarios los realizó en el Colegio San Luis, rindió el Bachillerato en la Universidad de Chile y en la Universidad Católica de Valparaíso donde estudió Física y Química. Fue en su ingreso a la universidad cuando comenzó a adentrarse en el Karate con 18 años, realizando estudios que lo llevaron a Brasil y Argentina, dichos estudios en este arte marcial lo llevaría a con 21 años, convertirse en en cinturón negro 1° Dan, siendo el primer chileno en conseguir esto.</p>
+                <p className={styles.peleador__article__text}>Su pasión por este arte marcial lo llevaría a continuar sus estudios en Estados Unidos, donde entrenaría bajo las ordenes del Sensei ED Parker. Tiempo después seguiría estudiando con otros destacados maestros como lo son, <Link href='/peleadores/masutatsu-oyama'>Mas Oyama</Link>, Nishiyama, Robert Trias, Fumio Demura, etc., con el objetivo de expandir sus conocimientos técnicos y filosóficos.</p>
+                <p className={styles.peleador__article__text}>En 1975 sería nombrado representante de la Asociación Norteamericana de Karate para Sudamérica. en 1975 sería invitado como Juez Internacional al Campeonato Internaciol de Long Beach en California, que reúne a los mayores expertos del mundo, en donde continuaría como uno de los jueces en los años 77, 78, 81, 82, 85.</p>
+                <p className={styles.peleador__article__text}>Para el año 1972 había varias escuelas de <b>KENPO</b> que dependían del maestro Petit. Con la sede principal ubicada en el centro de Santiago de Chile, contaba con una infraestructura muy grande, con 4 dojos incluidos en el edificio, con capacidad para 60 alumnos cada uno, con camarín, duchas de agua caliente y varias oficinas, además de una gran sala de espera. La popularidad de los Dojos y del kempo había llegado a punto tal, que la sede contaba con unos 1500 practicantes. Esto llevo a Petit a capacitar a una gran cantidad de instructores para que fueran quienes enseñaran en dichos dojos.</p>
+                <p className={styles.peleador__article__text}>A partir de 1975, los mismo alumnos del maestro Petit y del maestro Parker, comienzan a realizar viajes al exterior, creando nuevas escuelas de Kempo al rededor de Europa y América Latina. Dicha influencia es la que llevó al maestro a ser jefe de la comisión técnica asesora de las artes marciales en Chile, entidad dependiente del subjefe de la defensa nacional, siendo además designado como capitán del equipo chileno que participo en el cuarto Campeonato Sudamericano de Karate, además de llegar a ser instructor de Karate en la Escuela Militar, en la Escuela de Aviación y en la Escuela de Investigaciones del país.</p>
+                <p className={styles.peleador__article__text}>En los últimos años realizó en los Estados Unidos cursos especiales de combate cuerpo a cuerpo y procedimientos Antimotines y Policiales, tanto en Organismo de Seguridad privados en Estados Unidos y Sudamérica, asimismo un curso especial de Técnicas Policiales en la International Law Enforcement Division.</p>
+                <p className={styles.peleador__article__text}>Para 1985 había como mínimo una escuela de Kempo en cada ciudad de Chile, consiguiendo que de las 350.000 personas que practicaban artes marciales en el país, nada menos que 200.000 se dedicaran al Kempo. Ese mismo año, su maestro Ed Parker, le otorga el cinturón negro 7° Dan, convirtiéndolo en uno de los 5 mejores karatecas a nivel mundial en el estilo Kempo.</p>
+                <p className={styles.peleador__article__text}>Para los año 90 al maestro le es otorgado el 8° Dan, y forma su propia asociación llamada <b>INTERNATIONAL KENPO KARATE FEDERATION</b> de la cual se convierte en presidente.</p>
+                <p className={styles.peleador__article__text}>Finalmente, el 31 de agosto del año 2000, fallecería de un infarto en la ciudad de Concepción, justo cuando realizaba un viaje al sur de Chile para visitar una de las escuela de Kempo.</p>
+            </section>
+        </main>
+    )
+}

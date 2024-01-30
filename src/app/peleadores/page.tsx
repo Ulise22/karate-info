@@ -7,6 +7,7 @@ import rafael from '@/assets/homepage/peleadores/aghayev_rafael.jpg'
 import oscar from '@/assets/homepage/peleadores/oscar_higa.jpg'
 import yorgelis from '@/assets/homepage/peleadores/yorgelis_salazar.jpg'
 import masoyama from '@/assets/homepage/peleadores/masoyama.jpg'
+import petit from '@/assets/peleadores/petit.jpg'
 
 export default function Peleadores () {
     return(
@@ -21,6 +22,7 @@ export default function Peleadores () {
                 <PeleadorArticle peleadorImage={oscar} nombre='Oscar Higa' link='/peleadores/oscar-higa' />
                 <PeleadorArticle peleadorImage={yorgelis} nombre='Yorgelis Salazar' link='/peleadores/yorgelis-salazar' />
                 <PeleadorArticle peleadorImage={masoyama} nombre='Masutatsu Ōyama' link='/peleadores/masutatsu-oyama' />
+                <PeleadorArticle peleadorImage={petit} nombre='Arturo Petit' link='/peleadores/arturo-petit' />
             </section>
         </main>
     )
