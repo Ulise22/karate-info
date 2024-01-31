@@ -8,6 +8,7 @@ import oscar from '@/assets/homepage/peleadores/oscar_higa.jpg'
 import yorgelis from '@/assets/homepage/peleadores/yorgelis_salazar.jpg'
 import masoyama from '@/assets/homepage/peleadores/masoyama.jpg'
 import petit from '@/assets/peleadores/petit.jpg'
+import enoeda from '@/assets/peleadores/enoeda.webp'
 
 export default function Peleadores () {
     return(
@@ -23,6 +24,7 @@ export default function Peleadores () {
                 <PeleadorArticle peleadorImage={yorgelis} nombre='Yorgelis Salazar' link='/peleadores/yorgelis-salazar' />
                 <PeleadorArticle peleadorImage={masoyama} nombre='Masutatsu Ōyama' link='/peleadores/masutatsu-oyama' />
                 <PeleadorArticle peleadorImage={petit} nombre='Arturo Petit' link='/peleadores/arturo-petit' />
+                <PeleadorArticle peleadorImage={enoeda} nombre='Keinosuke Enoeda' link='/peleadores/keinosuke-enoeda' />
             </section>
         </main>
     )
