@@ -21,6 +21,7 @@ import hiraken from '@/assets/articles-preview/hiraken.png'
 import femenino from '@/assets/articles-preview/femenino.jpg'
 import senteNashi from '@/assets/articles-preview/ni_sante_nashi.jpg'
 import os from '@/assets/articles-preview/oss.png'
+import wkf from '@/assets/articles-preview/wkf.webp'
 
 export default function Articulos () {
     return(
@@ -68,6 +69,7 @@ export default function Articulos () {
                 <ArticleCard artiURL='/articulos/karate-femenino' artImage={femenino} title='Karate Femenino' text='¿Como afecta a las mujeres practicar karate? ¿Cuales son las karatekas femeninas más conocidas y destacadas?' />
                 <ArticleCard artiURL='/articulos/karate-ni-sente-nashi' artImage={senteNashi} title='Karate Ni Sente Nashi' text='La frase "Karate ni Sente Nashi" es una de las más importantes del karate...' />
                 <ArticleCard artiURL='/articulos/karate-os' artImage={os} title='Karate Oss' text='Oss es una palabra que se usa constantemente en karate, pero ¿qué significa realmente?' />
+                <ArticleCard artiURL='/articulos/reglas-karate-wkf' artImage={wkf} title='Reglas de Karate' text='Las reglas que deben aplicarse al karate segun Federación Mundial de Karate...' />
             </section>
         </main>
     )

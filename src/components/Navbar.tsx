@@ -22,11 +22,14 @@ export default function Navbar () {
                 <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/'>Inicio</Link></li>
                 <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/peleadores'>Peleadores</Link>
                     <ul className={styles.navbar__item__dropdown}>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/gichin-funakoshi'>Gichin Funakoshi</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/lidia-rodriguez'>Lidia Rodríguez</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/rafael-aghayev'>Rafael Aghayev</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/oscar-higa'>Oscar Higa</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/yorgelis-salazar'>Yorgelis Salazar</Link></li>
                         <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/masutatsu-oyama'>Masutatsu Oyama</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/arturo-petit'>Arturo Petit</Link></li>
+                        <li><Link onClick={() => setMenu(!menu)} className={styles.navbar__item_dropdown__link} href='/peleadores/keinosuke-enoeda'>Keinosuke Enoeda</Link></li>
                     </ul>
                 </li>
                 <li className={styles.navbar__item}><Link className={styles.navbar__link} href='/articulos'>Artículos</Link>
