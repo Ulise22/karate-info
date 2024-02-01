@@ -11,7 +11,7 @@ export default function Footer () {
                 <li><Link className={styles.footer__link} href='/privacidad'>Política de Privacidad</Link></li>
             </ul>
             <div className={styles.footer__line} />
-            <p className={styles.footer__p}>Página diseñada y desarrollada por Ulises Montenegro</p>
+            <p className={styles.footer__p}>Página diseñada y desarrollada por MakDev</p>
         </footer>
     )
 }
