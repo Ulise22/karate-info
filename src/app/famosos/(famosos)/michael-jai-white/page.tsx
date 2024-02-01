@@ -3,7 +3,7 @@ import michael from '@/assets/famosos/michael-jai_white_hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
 import Link from 'next/link'
 
-export default function BruceLee () {
+export default function MicahelJaiWhite () {
     return(
         <main className={styles.famoso}>
             <ArticlesHero title='Michael Jai White' img={michael} />
