@@ -18,6 +18,7 @@ import wadoRyu from '@/assets/articles-preview/wado_ryu.jpg'
 import shitoRyu from '@/assets/articles-preview/shito_ryu.jpg'
 import genseiryu from '@/assets/articles-preview/genseiryu.jpg'
 import isshin from '@/assets/articles-preview/isshin_ryu.jpg'
+import uechi from '@/assets/articles-preview/uechi-ryu.jpg'
 
 export default function Estilos () {
     return(
@@ -61,7 +62,8 @@ export default function Estilos () {
                 <ArticleCard artiURL='/estilos/wado-ryu' artImage={wadoRyu} title='Wadō-ryū' text='El Wado Ryu es uno de los 4 estilos principales del Karate-Do tradicional fundado por el maestro Hironori Otsuka...' />
                 <ArticleCard artiURL='/estilos/shito-ryu' artImage={shitoRyu} title='Shitō-ryū' text='El Shitō-ryū es un estilo de karate fundado por el maestro Kenwa Mabuni en 1931...' />
                 <ArticleCard artiURL='/estilos/karate-gensei-ryu' artImage={genseiryu} title='Genseiryū' text='Genseiryū es un estilo de karate fundado oficialmente en 1953 por el maestro Seiken Shukumine...' />
-                <ArticleCard artiURL='/estilos/isshin-ryu' artImage={isshin} title='Genseiryū' text='Isshin Ryu es un estilo de karate okinawense fundado en el año 1956 por el maestro Tatsuo Shimabaku...' />
+                <ArticleCard artiURL='/estilos/isshin-ryu' artImage={isshin} title='Isshin Ryu' text='Isshin Ryu es un estilo de karate okinawense fundado en el año 1956 por el maestro Tatsuo Shimabaku...' />
+                <ArticleCard artiURL='/estilos/uechi-ryu' artImage={uechi} title='Uechi Ryu' text='El Uechi-Ryu es uno de los 3 principales estilos clásicos tradicionales del karate de Okinawa...' />
             </section>
         </main>
     )

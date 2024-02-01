@@ -56,7 +56,7 @@ export default function IsshinRyu () {
                     <li>Bo-tai-Sai-Kumite (Bo contra Sai)</li>
                     <li>Bo-tai-Tonfa-Kumite (Bo contra Tonfa)</li>
                 </ul>
-                <p>Entre estas katas, se incluyen varias que utilizan Armas tradicionales propias del Kobudo. Y si bien el maestro Shimabuku enseñó únicamente tres de las armas utilizadas por este marcial, como lo son el Bo, el Sai y la Tonfa, otras líneas del Isshin-Ryu hacen uso de elementos como el Nunchaku, la Kama, el Eku y los Tekko para hacer ciertos katas</p>
+                <p>Entre estas katas, se incluyen varias que utilizan Armas tradicionales propias del Kobudo. Y si bien el maestro Shimabuku enseñó únicamente tres de las armas utilizadas por este marcial, como lo son el Bo, el Sai y la Tonfa, otras líneas del Isshin-Ryu hacen uso de elementos como el Nunchaku, la Kama, el Eku y los Tekko para hacer ciertos katas.</p>
             </section>
         </main>
     )
