@@ -1,4 +1,4 @@
-import SuggestArticles from "@/components/layouts/SuggestArticles"
+import SuggestCelebrities from "@/components/layouts/SuggestCelebrities"
 
 export default function ArticulosLayout({
   children,
@@ -8,7 +8,7 @@ export default function ArticulosLayout({
   return (
     <>
         {children}
-        <SuggestArticles />
+        <SuggestCelebrities />
     </>
   )
 }

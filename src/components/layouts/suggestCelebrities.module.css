@@ -1,0 +1,22 @@
+.suggestCelebrities {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.suggestCelebrities__container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.suggestCelebrities__title {
+    text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+    .suggestCelebrities {
+        width: 95%;
+    }
+}
