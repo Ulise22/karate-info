@@ -1,5 +1,5 @@
 import styles from '@/app/famosos/famoso.module.css'
-import dolph from '@/assets/famosos/dolph_hero.jpg'
+import dolph from '@/assets/famosos/hero/dolph_hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
 import Link from 'next/link'
 

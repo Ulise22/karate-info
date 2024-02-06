@@ -1,5 +1,5 @@
 import styles from '@/app/famosos/famoso.module.css'
-import michael from '@/assets/famosos/michael-jai_white_hero.jpg'
+import michael from '@/assets/famosos/hero/michael-jai_white_hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
 import Link from 'next/link'
 

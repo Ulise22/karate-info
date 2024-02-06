@@ -1,7 +1,6 @@
 import styles from '@/app/famosos/famoso.module.css'
 import taylor from '@/assets/famosos/hero/taylor_lautner_hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
-import Link from 'next/link'
 
 export default function TaylorLauter () {
     return(

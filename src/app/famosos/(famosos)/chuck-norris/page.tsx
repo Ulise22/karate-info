@@ -1,5 +1,5 @@
 import styles from '@/app/famosos/famoso.module.css'
-import chuck from '@/assets/famosos/chuck__hero.jpg'
+import chuck from '@/assets/famosos/hero/chuck__hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
 import Link from 'next/link'
 

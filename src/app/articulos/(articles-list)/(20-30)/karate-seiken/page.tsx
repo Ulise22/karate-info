@@ -1,7 +1,6 @@
 import ArticlesHero from '@/components/ArticlesHero'
 import styles from '../../../article.module.css'
 import seiken from '@/assets/articles-preview/karate_seiken.jpg'
-import Link from 'next/link'
 
 export default function KarateSeiken () {
     return(

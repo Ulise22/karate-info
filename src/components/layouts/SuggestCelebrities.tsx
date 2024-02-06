@@ -1,10 +1,10 @@
 import PeleadorCard from '../homepage/PeleadorCard'
 import styles from './suggestCelebrities.module.css'
 /* IMAGES */
-import norris from '@/assets/famosos/chuck_norris.jpg'
-import lee from '@/assets/famosos/bruce_lee.jpg'
-import lundgren from '@/assets/famosos/dolph_lundgren.jpg'
-import vanDamme from '@/assets/famosos/van_damme.jpg'
+import norris from '@/assets/famosos/cards/chuck_norris.jpg'
+import lee from '@/assets/famosos/cards/bruce_lee.jpg'
+import lundgren from '@/assets/famosos/cards/dolph_lundgren.jpg'
+import vanDamme from '@/assets/famosos/cards/van_damme.jpg'
 
 export default function SuggestCelebrities () {
     return(

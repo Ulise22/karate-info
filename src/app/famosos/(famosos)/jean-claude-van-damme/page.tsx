@@ -1,5 +1,5 @@
 import styles from '@/app/famosos/famoso.module.css'
-import vanDamme from '@/assets/famosos/van_damme-hero.jpg'
+import vanDamme from '@/assets/famosos/hero/van_damme-hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
 import Link from 'next/link'
 

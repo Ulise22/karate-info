@@ -1,5 +1,5 @@
 import styles from '@/app/famosos/famoso.module.css'
-import lee from '@/assets/famosos/bruce_lee_hero.jpg'
+import lee from '@/assets/famosos/hero/bruce_lee_hero.jpg'
 import ArticlesHero from '@/components/ArticlesHero'
 
 export default function BruceLee () {

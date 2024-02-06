@@ -25,6 +25,7 @@ import wkf from '@/assets/articles-preview/wkf.webp'
 import diezEstilos from '@/assets/articles-preview/10-estilos.jpg'
 import jutsu from '@/assets/articles-preview/karate_jutsu.jpg'
 import seiken from '@/assets/articles-preview/karate_seiken.jpg'
+import celebridad from '@/assets/famosos/hero/bruce_lee_hero.jpg'
 
 export default function Articulos () {
     return(
@@ -76,6 +77,7 @@ export default function Articulos () {
                 <ArticleCard artiURL='/articulos/10-estilos-karate' artImage={diezEstilos} title='10 Estilos de Karate' text='10 de los estilos más populares y practicados en el mundo del karate...' />
                 <ArticleCard artiURL='/articulos/karate-jutsu' artImage={jutsu} title='Karate Jutsu' text='¿Qué significa &quot;jutsu&quot; en el karate?' />
                 <ArticleCard artiURL='/articulos/karate-seiken' artImage={seiken} title='Karate Seiken' text='El Seiken, o cabeza de ternero, es un golpe simple de Karate, considerado un puño normal o fundamental...' />
+                <ArticleCard artiURL='/articulos/10-celebridades-karate' artImage={celebridad} title='10 Famosos Especialistas en Karate' text='Una lista de 10 celebridades y famosos que no sabías que son expertas en Karate...' />
             </section>
         </main>
     )

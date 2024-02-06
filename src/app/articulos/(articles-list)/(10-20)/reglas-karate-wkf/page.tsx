@@ -1,7 +1,6 @@
 import ArticlesHero from '@/components/ArticlesHero'
 import styles from '../../../article.module.css'
 import wkf from '@/assets/articles-preview/wkf.webp'
-import Link from 'next/link'
 
 export default function ReglasKarate () {
     return(
