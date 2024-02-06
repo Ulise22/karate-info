@@ -12,6 +12,11 @@
     height: 400px;
 }
 
+.article__image {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 660px) {
     .article__subtitle {
         text-align: center;
