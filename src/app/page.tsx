@@ -48,10 +48,10 @@ export default function Home() {
         <article className={styles.article}>
           <h2 className={styles.article__title}>Estílos de Karate</h2>
           <div className={styles.article__card__container}>
-            <ArticleCard artiURL='/articulos/karate-kobudo' artImage={kobudo} title='Karate Kobudo' text='El karate Kobudo es un arte marcial japonés que estudia el uso de las armas tradicionales de madera o metal...' />
-            <ArticleCard artiURL='/articulos/karate-kata' artImage={kata} title='Karate Kata' text='Los kata de karate son un conjunto de movimientos practicados solo o en pareja en una clase de artes marciales...' />
-            <ArticleCard artiURL='/articulos/karate-shokotan' artImage={shokotan} title='Karate Shokotan' text='El karate Shokotan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...' />
-            <ArticleCard artiURL='/articulos/shorinji-ryu' artImage={shorinji} title='Shorinji Ryu' text='El Shorinji Ryu es uno de los estilos más antiguos del karate okinawense. Sus katas combinan la distancia corta y la larga, los desplazamientos y técnicas combinan un rectilíneo con lo circular...' />
+            <ArticleCard artiURL='/estilos/karate-kobudo' artImage={kobudo} title='Karate Kobudo' text='El karate Kobudo es un arte marcial japonés que estudia el uso de las armas tradicionales de madera o metal...' />
+            <ArticleCard artiURL='/estilos/karate-kata' artImage={kata} title='Karate Kata' text='Los kata de karate son un conjunto de movimientos practicados solo o en pareja en una clase de artes marciales...' />
+            <ArticleCard artiURL='/estilos/karate-shokotan' artImage={shokotan} title='Karate Shokotan' text='El karate Shokotan es el primer estilo de karate-do japonés. Desarrollado por el maestro Gichin Funakoshi...' />
+            <ArticleCard artiURL='/estilos/shorinji-ryu' artImage={shorinji} title='Shorinji Ryu' text='El Shorinji Ryu es uno de los estilos más antiguos del karate okinawense. Sus katas combinan la distancia corta y la larga, los desplazamientos y técnicas combinan un rectilíneo con lo circular...' />
             <ArticleCard artiURL='/estilos/karate-byakuren' artImage={byakuren} title='Karate Byakuren' text='El karate Byakuren es un estilo de karate de full contacto fundado en 1984 por Sugihara Masayasu...' />
             <ArticleCard artiURL='/estilos/budo' artImage={budo} title='Budo' text='El budo hace referencia al conocimiento técnico de las artes marciales mixtas y al conjunto de normas éticas para sus practicantes' />
             <ArticleCard artiURL='/estilos/karate-shudokan' artImage={shudokan} title='Shudokan' text='El Shudokan es una escuela de kárate creada en 1932 por Kanken Toyama...' />
